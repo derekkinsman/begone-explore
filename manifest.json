@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Begone #Explore",
+  "version": "1.0",
+  "description": "Get rid of the dumpster fire that is Twitter Trends.",
+  "permissions": ["declarativeContent"],
+  "content_scripts": [{
+    "css": ["style.css"],
+    "matches": ["https://twitter.com/*"]
+  }]
+}
